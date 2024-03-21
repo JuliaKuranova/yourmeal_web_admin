@@ -1,0 +1,84 @@
+.custom-input-wrapper {
+    position: relative;
+}
+
+.custom-search-field-wrapper {
+    border-width: 1.5px !important;
+    border-style: solid;
+    border-radius: 12px;
+    width: 100%;
+    padding-left: 30px !important;
+    background: var(--gray-light, #F3F4F6) !important;
+}
+
+.custom-search-field-wrapper.cropped {
+    padding-right: 30px !important;
+}
+
+.custom-search-field-wrapper .MuiOutlinedInput-notchedOutline {
+    border-width: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.custom-search-field-wrapper .input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@keyframes onAutoFillStart { }
+
+.input:-webkit-autofill {
+    animation-name: onAutoFillStart;
+    background-color: var(--main-white);
+    box-shadow: 0 0 0 1000px var(--main-white) inset;
+    font-family: Monsterrat-600, serif !important;
+    font-weight: 500;
+}
+
+.input:-webkit-autofill:focus {
+    animation-name: onAutoFillStart;
+    background-color: var(--main-white);
+    box-shadow: 0 0 0 1000px var(--main-white) inset;
+    font-family: Monsterrat-600, serif !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill::first-line,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill::first-line,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus,
+select:-webkit-autofill::first-line{
+    -webkit-box-shadow: 0 0 0 1000px var(--main-white) inset !important;
+    font-family: Monsterrat-600, serif !important;
+}
+
+.custom-search-field-wrapper .MuiInputBase-input {
+    padding: 0 !important;
+    margin: 9px 13px !important;
+}
+
+.custom-search-field-wrapper .MuiInputBase-multiline {
+    padding: 0 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+}

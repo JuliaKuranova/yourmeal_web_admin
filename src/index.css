@@ -1,13 +1,73 @@
+html {
+  overflow: initial !important;
+}
+
 body {
   margin: 0;
+  height: 100vh;
+  background-color: #FFFFFF;
+  overflow-x: hidden !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+@font-face {
+  font-family: "Inter4";
+  src: local("Inter4"),
+  url('assets/custom_fonts/InterVariable.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: local("Lato-Regular"),
+  url('./assets/custom_fonts/Lato-Regular.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "InterDisplay-Regular";
+  src: local("InterDisplay-Regular"),
+  url('./assets/custom_fonts/InterDisplay-Regular.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "InterDisplay-Medium";
+  src: local("InterDisplay-Medium"),
+  url('./assets/custom_fonts/InterDisplay-Medium.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "InterDisplay-SemiBold";
+  src: local("InterDisplay-SemiBold"),
+  url('./assets/custom_fonts/InterDisplay-SemiBold.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "InterDisplay-Bold";
+  src: local("InterDisplay-Bold"),
+  url('./assets/custom_fonts/InterDisplay-Bold.ttf') format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AlegreyaSans-Bold";
+  src: local("AlegreyaSans-Bold"),
+  url('./assets/custom_fonts/AlegreyaSans-Bold.ttf') format("truetype");
+  font-weight: normal;
+}
+
+.hidden {
+  overflow-y: hidden !important;
 }

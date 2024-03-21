@@ -1,0 +1,29 @@
+.standard-btn-wrapper {
+    display: flex;
+    height: 48px;
+    padding: 4px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--gray-light, #F3F4F6);
+    box-sizing: border-box;
+}
+
+.mobile-and-desktop-btns.gray {
+    color: var(--text-primary, #2C2D2E);
+}
+
+.mobile-and-desktop-btns.white {
+    color: var(--main-white, #FFFFFF);
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

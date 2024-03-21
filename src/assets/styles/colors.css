@@ -1,0 +1,24 @@
+:root {
+    --main-ym-green: #00DF5F;
+    --on-hover-ym-green: #00C956;
+    --on-click-ym-green: #00B54D;
+
+    --gray-light: #F3F4F6;
+    --main-white: #FFF;
+    --text-tetriary: #87898F;
+
+    --on-hover-gray-light: #E7E9F0;
+    --on-click-gray-light: #CFD2DB;
+
+    --background-light-green: #CCF9DF;
+    --light-colors-light: #F6F9FA;
+    --background-green-light-1: #E7FFF1;
+    --gray-dark: #C6C9D1;
+
+    --text-primary: #2C2D2E;
+    --text-secondary: #5D5E64;
+    --special-dark-layer: rgba(0, 0, 0, 0.35);
+
+    --special-red: #F74061;
+    --special-green-gradient: linear-gradient(135deg, #00DF5F 0%, #4DF293 100%)
+}

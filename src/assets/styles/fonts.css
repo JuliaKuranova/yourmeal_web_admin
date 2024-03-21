@@ -1,0 +1,173 @@
+/* mobile subtext */
+.mobile-subtext {
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    font-family: Lato-Regular, sans-serif;
+    color: var(--text-tetriary, #87898F);
+}
+
+/* Desktop/Subtext */
+.desktop-subtext {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mobile-subtext.green {
+    color: var(--main-ym-green, #00DF5F);
+}
+
+/* Mobile/Tags */
+.mobile-tags {
+    font-family: InterDisplay-Medium, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+
+/* Mobile/H2 */
+.mobile-h2 {
+    font-family: InterDisplay-Bold, serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+/* Desktop/H2 */
+.desktop-h2 {
+    font-family: InterDisplay-Bold, serif;
+    font-size: 35px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+/* Mobile/H3 */
+.mobile-h3 {
+    font-family: InterDisplay-SemiBold, serif;
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.44px;
+}
+
+/* Desktop/H3 */
+.desktop-h3 {
+    font-family: InterDisplay-SemiBold, serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+/* Mobile/H4 */
+.mobile-h4 {
+    font-family: InterDisplay-SemiBold, serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+/* Desktop/H4 */
+.desktop-h4 {
+    font-family: InterDisplay-SemiBold, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+
+/* Mobile/Squares */
+.mobile-squares {
+    font-family: InterDisplay-SemiBold, serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: -0.32px;
+}
+
+/* Desktop/Squares */
+.desktop-squares {
+    font-family: InterDisplay-SemiBold, serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.56px;
+}
+
+/* Mob and desktop/Buttons */
+.mobile-and-desktop-btns {
+    font-family: InterDisplay-SemiBold, serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.32px;
+}
+
+/* Mob and desktop/Selectors */
+.mobile-and-desktop-selectors {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+/* Mob and desktop/Hints */
+.mobile-and-desktop-hints {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+}
+
+/* Mobile main text */
+.mobile-main-text {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+/* Desktop/Main text */
+.desktop-main-text {
+    color: #000;
+    font-family: Lato-Regular, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Colors */
+.text-primary {
+    color: var(--text-primary, #2C2D2E);
+}
+
+.text-secondary {
+    color: var(--text-secondary, #5D5E64);
+}
+
+.text-tetriary {
+    color: var(--text-tetriary, #87898F);
+}
+
+.text-white {
+    color: var(--main-white, #FFFFFF);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
