@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/yourmeal_web_admin/static/css/main.965ff9eb.css",
-    "main.js": "/yourmeal_web_admin/static/js/main.dbde311d.js",
-    "static/js/453.c9110732.chunk.js": "/yourmeal_web_admin/static/js/453.c9110732.chunk.js",
+    "main.css": "/yourmeal_web_admin/static/css/main.ce18a09b.css",
+    "main.js": "/yourmeal_web_admin/static/js/main.1217e409.js",
     "static/media/InterVariable.ttf": "/yourmeal_web_admin/static/media/InterVariable.c9f788f6e7ebaec75d7c.ttf",
     "static/media/InterDisplay-Bold.ttf": "/yourmeal_web_admin/static/media/InterDisplay-Bold.fcbf151eb928686c2bd0.ttf",
     "static/media/InterDisplay-SemiBold.ttf": "/yourmeal_web_admin/static/media/InterDisplay-SemiBold.67b44ebd4addee42f07e.ttf",
@@ -12,12 +11,11 @@
     "static/media/Fries-image.png": "/yourmeal_web_admin/static/media/Fries-image.a5f16f1ce9b2ca41105f.png",
     "static/media/Lato-Regular.ttf": "/yourmeal_web_admin/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
     "index.html": "/yourmeal_web_admin/index.html",
-    "main.965ff9eb.css.map": "/yourmeal_web_admin/static/css/main.965ff9eb.css.map",
-    "main.dbde311d.js.map": "/yourmeal_web_admin/static/js/main.dbde311d.js.map",
-    "453.c9110732.chunk.js.map": "/yourmeal_web_admin/static/js/453.c9110732.chunk.js.map"
+    "main.ce18a09b.css.map": "/yourmeal_web_admin/static/css/main.ce18a09b.css.map",
+    "main.1217e409.js.map": "/yourmeal_web_admin/static/js/main.1217e409.js.map"
   },
   "entrypoints": [
-    "static/css/main.965ff9eb.css",
-    "static/js/main.dbde311d.js"
+    "static/css/main.ce18a09b.css",
+    "static/js/main.1217e409.js"
   ]
 }

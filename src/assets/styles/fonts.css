@@ -1,173 +1,253 @@
 /* mobile subtext */
 .mobile-subtext {
-    font-size: 14px;
-    font-style: normal;
-    line-height: normal;
-    font-family: Lato-Regular, sans-serif;
-    color: var(--text-tetriary, #87898F);
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  font-family: Lato-Regular, sans-serif;
+  color: var(--text-tetriary, #87898f);
 }
 
 /* Desktop/Subtext */
 .desktop-subtext {
-    font-family: Lato-Regular, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .mobile-subtext.green {
-    color: var(--main-ym-green, #00DF5F);
+  color: var(--main-ym-green, #00df5f);
 }
 
 /* Mobile/Tags */
 .mobile-tags {
-    font-family: InterDisplay-Medium, serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: -0.28px;
+  font-family: InterDisplay-Medium, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
 }
 
 /* Mobile/H2 */
 .mobile-h2 {
-    font-family: InterDisplay-Bold, serif;
-    font-size: 24px;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.48px;
+  font-family: InterDisplay-Bold, serif;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.48px;
 }
 
 /* Desktop/H2 */
 .desktop-h2 {
-    font-family: InterDisplay-Bold, serif;
-    font-size: 35px;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.72px;
+  font-family: InterDisplay-Bold, serif;
+  font-size: 35px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.72px;
 }
 
 /* Mobile/H3 */
 .mobile-h3 {
-    font-family: InterDisplay-SemiBold, serif;
-    font-size: 22px;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.44px;
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.44px;
 }
 
 /* Desktop/H3 */
 .desktop-h3 {
-    font-family: InterDisplay-SemiBold, serif;
-    font-size: 24px;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.48px;
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.48px;
 }
 
 /* Mobile/H4 */
 .mobile-h4 {
-    font-family: InterDisplay-SemiBold, serif;
-    font-size: 18px;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.36px;
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.36px;
 }
 
 /* Desktop/H4 */
 .desktop-h4 {
-    font-family: InterDisplay-SemiBold, serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.4px;
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.4px;
 }
 
 /* Mobile/Squares */
 .mobile-squares {
-    font-family: InterDisplay-SemiBold, serif;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 18px;
-    letter-spacing: -0.32px;
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: -0.32px;
 }
 
 /* Desktop/Squares */
 .desktop-squares {
-    font-family: InterDisplay-SemiBold, serif;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.56px;
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.56px;
 }
 
-/* Mob and desktop/Buttons */
+/* + Mob and desktop/Buttons */
 .mobile-and-desktop-btns {
-    font-family: InterDisplay-SemiBold, serif;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 20px; /* 125% */
-    letter-spacing: -0.32px;
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
 }
 
 /* Mob and desktop/Selectors */
 .mobile-and-desktop-selectors {
-    font-family: Lato-Regular, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    line-height: normal;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
 }
 
 /* Mob and desktop/Hints */
 .mobile-and-desktop-hints {
-    font-family: Lato-Regular, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    line-height: normal;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  line-height: normal;
 }
 
 /* Mobile main text */
 .mobile-main-text {
-    font-family: Lato-Regular, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    line-height: normal;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
 }
 
 /* Desktop/Main text */
 .desktop-main-text {
-    color: #000;
-    font-family: Lato-Regular, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* Colors */
 .text-primary {
-    color: var(--text-primary, #2C2D2E);
+  color: var(--text-primary, #2c2d2e);
 }
 
 .text-secondary {
-    color: var(--text-secondary, #5D5E64);
+  color: var(--text-secondary, #5d5e64);
 }
 
 .text-tetriary {
-    color: var(--text-tetriary, #87898F);
+  color: var(--text-tetriary, #87898f);
 }
 
 .text-white {
-    color: var(--main-white, #FFFFFF);
+  color: var(--main-white, #ffffff);
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
+}
+
+/* Yulia */
+.main-text {
+  color: var(--Text-Primary, #2c2d2e);
+  font-family: Lato-Regular, sans-serif;
+  font-size: 18px;
+  /* font-style: normal;
+    line-height: normal; */
+}
+
+.tags-text {
+  /* color: var(--Text-Primary, #2C2D2E); */
+  font-family: InterDisplay-Medium, serif;
+  /* font-family: InterDisplay-SemiBold, serif; */
+  font-size: 14px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+
+  /* border */
+  border-radius: 16px;
+  padding: 7px 16px;
+}
+
+.subtext {
+  font-family: Lato-Regular, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--Text-Secondary, #5d5e64);
+}
+
+.h4 {
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.36px;
+}
+
+.h2 {
+  color: var(--Text-Primary, #2c2d2e);
+  font-family: InterDisplay-Bold, serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.48px;
+}
+
+@media (min-width: 786px) {
+  .main-text {
+    /* color: #000; */
+    /* font-family: Lato-Regular, sans-serif; */
+    font-size: 20px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* line-height: normal; */
+  }
+
+  .tags-text {
+    /* color: var(--Text-Primary, #2C2D2E);
+        font-family: InterDisplay-Medium, serif; */
+    font-size: 16px;
+    /* font-style: normal; */
+    /* font-weight: 500; */
+    /* line-height: 18px; */
+    letter-spacing: -0.32px;
+  }
+
+  .subtext {
+    font-size: 16px;
+  }
+
+  .h4 {
+    font-size: 20px;
+  }
+
+  .h2 {
+    font-size: 36px;
+    letter-spacing: -0.72px;
+  }
 }

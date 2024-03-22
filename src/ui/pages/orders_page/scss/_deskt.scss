@@ -38,7 +38,7 @@
         border-radius: 12px;
         background: var(--Transparent-items-Active-item, #f4f6f8);
         color: var(--Text-Primary, #2C2D2E);
-        font-weight: 600;
+        // font-weight: 600;
       }
   }
 
@@ -48,8 +48,8 @@
     flex-direction: row;
   }
 
-  .order__btn {
-    justify-content: flex-end;
-  }
+//   .order__btn {
+//     justify-content: flex-end;
+//   }
 
 }

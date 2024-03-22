@@ -1,22 +1,21 @@
 import './OrdersPage.css'
 import '../../../assets/styles/fonts.css'
 // import '../../../assets/images/OrdersPage/icon-user.svg'
-import StandardButton, {
-    StandardButtonColor,
-    StandardButtonIconPosition,
-    StandardButtonIconType
-  } from "../../shared_components/buttons/standard_button/StandardButton";
-import EditOrder from './edit_order/EditOrder';
-import { useState } from 'react';
+// import StandardButton, {
+//     StandardButtonColor,
+//     StandardButtonIconPosition,
+//     StandardButtonIconType
+//   } from "../../shared_components/buttons/standard_button/StandardButton";
+// import EditOrder from './edit_order/EditOrder';
+// import { useState } from 'react';
+import Order from './order/Order';
 
 const OrdersPage = () => {
-    const [isPopupOpen, setPopupOpen] = useState(false);
+    // const [isPopupOpen, setPopupOpen] = useState(false);
 
     return (
         <div className="page-wrapper">
-            {/* <div className=''> */}
                 <div className="nav-bar">
-                    {/* <div className="nav-bar__items"> */}
                         <div className="nav-bar__item mobile-and-desktop-btns">
                             {/* <div className="nav-bar__icon"> */}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -79,12 +78,15 @@ const OrdersPage = () => {
                                 Позиции на главной
                             </div>
                         </div>
-                    {/* </div> */}
                 </div>
                 
                 <div className="grey-bg orders-wrapper" >
                     <div className="orders">
-                        <div className="order">
+                        <Order />
+                        <Order />
+                        <Order />
+                        <Order />
+                        {/* <div className="order">
                             <div className="order__top f-8">
                                 <div className="order__title">
                                 Заказ  <span>#1649</span>
@@ -324,10 +326,9 @@ const OrdersPage = () => {
                                 <a href="">Изменить заказ</a>
                                 <a href="">Принять заказ</a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
-            {/* </div> */}
         </div>
     )
 }
