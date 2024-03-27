@@ -28,7 +28,7 @@
   bottom: 0;
   position: fixed;
   width: -webkit-fill-available;
-  z-index: 1;
+  z-index: 3;
 }
 .nav-bar__item {
   height: 24px;
@@ -53,10 +53,6 @@
   margin: 16px 16px 0;
   display: grid;
   gap: 8px;
-}
-
-.grey-bg {
-  background: var(--Light-colors-Light, #f6f9fa);
 }
 
 @media (min-width: 600px) {

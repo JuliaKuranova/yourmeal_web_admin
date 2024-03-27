@@ -1,13 +1,13 @@
 import './Order.css'
 import '../../../../assets/styles/fonts.css'
-// import '../../../assets/images/OrdersPage/icon-user.svg'
 import { useState } from 'react';
 import EditOrder from '../edit_order/EditOrder';
 import StandardButton, { 
     StandardButtonColor, 
     StandardButtonIconPosition, StandardButtonIconType } 
     from '../../../shared_components/buttons/standard_button/StandardButton';
-// import TagButton from '../../../shared_components/buttons/tag_button/TagButton';
+
+
 
 const Order = () => {
     const [isPopupOpen, setPopupOpen] = useState(false);
@@ -15,7 +15,7 @@ const Order = () => {
     return (
         <div className="order">
             <div className="order__top f-8">
-                <div className="order__title">
+                <div onClick={() => setPopupOpen(true)} className="order__title">
                     <span>Заказ</span>
                     <span>#1649</span>
                     <span>16:45</span>
@@ -27,15 +27,6 @@ const Order = () => {
                 <div className='order__status tags-text'>
                     Оплата ожидается
                 </div>
-                {/* <TagButton
-                key={`${rt}-tag-rest`}
-                onClickAction={() => true}
-                isActive={false}
-                text={rt}
-                type={TagButtonType.DESKTOP}
-                disabled={true}
-                transparent={true}
-              /> */}
             </div>
             <div className="order__info">
                 <div className='order__table'>
@@ -99,10 +90,12 @@ const Order = () => {
                 <span>₽</span>
             </div>
             <div className="f-8 order__btn">
+            
             <EditOrder 
                 isOpen = {isPopupOpen}
                 onClose={() => setPopupOpen(false)}
             />
+
             <StandardButton
                 onClickAction={() => setPopupOpen(true)}
                 text={'Изменить заказ'}

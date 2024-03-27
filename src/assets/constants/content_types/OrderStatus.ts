@@ -1,0 +1,8 @@
+export enum OrderStatus {
+  PREPARING,
+  SENDING,
+  ACCEPTED,
+  CHANGED_AND_ACCEPTED,
+  DECLINED,
+  COMPLETED,
+}

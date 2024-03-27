@@ -1,0 +1,17 @@
+.number-tag-wrapper {
+    border-radius: 12px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.number-tag-wrapper.num-green {
+    background: var(--main-ym-green, #00DF5F);
+}
+
+.number-tag-wrapper.num-white {
+    background: var(--gray-light, #F3F4F6);
+}

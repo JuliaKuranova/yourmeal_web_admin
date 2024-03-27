@@ -1,0 +1,60 @@
+.food-detailed-all-wrapper .warning-btns-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+.restaurant-warning-absolute-wrapper-desktop {
+    position: fixed;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    top:0;
+    left: 0;
+    z-index: -999999999 !important;
+    opacity: 0;
+    transition: opacity .2s ease;
+    -webkit-transition: opacity .2s ease;
+    -moz-transition: opacity .2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurant-warning-absolute-wrapper-desktop.open {
+    height: 100vh;
+    width: 100%;
+    z-index: 999999 !important;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.restaurant-warning-absolute-wrapper-desktop .restaurant-warning-wrapper-desktop {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 16px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 50px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 24px;
+    background-color: var(--main-white, #FFF);
+}
+
+.restaurant-warning-absolute-wrapper-desktop .restaurant-warning-wrapper-desktop .header-and-close-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.restaurant-warning-absolute-wrapper-desktop .btns-wrapper-desktop {
+    display: grid;
+    width: 100%;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
+    margin-top: 40px;
+}

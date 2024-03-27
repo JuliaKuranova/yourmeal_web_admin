@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import reportWebVitals from './reportWebVitals';
 // import {Provider} from "react-redux";
 // import reduxStore from "./redux/ReduxStore";
 import {BrowserRouter as Router} from 'react-router-dom';
@@ -13,15 +13,17 @@ import './assets/custom_fonts/InterDisplay-SemiBold.ttf'
 import './assets/custom_fonts/InterDisplay-Bold.ttf'
 import './assets/custom_fonts/AlegreyaSans-Bold.ttf'
 import App from './App';
+import { Provider } from 'react-redux';
+import reduxStore from './redux/ReduxStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Provider store={reduxStore}> */}
+    <Provider store={reduxStore}>
       <Router>
         <App />
       </Router>
-    {/* </Provider> */}
+    </Provider>
   </React.StrictMode>
 );
 

@@ -182,11 +182,8 @@
 }
 
 .tags-text {
-  /* color: var(--Text-Primary, #2C2D2E); */
   font-family: InterDisplay-Medium, serif;
-  /* font-family: InterDisplay-SemiBold, serif; */
   font-size: 14px;
-  /* font-style: normal; */
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.28px;
@@ -229,12 +226,7 @@
   }
 
   .tags-text {
-    /* color: var(--Text-Primary, #2C2D2E);
-        font-family: InterDisplay-Medium, serif; */
     font-size: 16px;
-    /* font-style: normal; */
-    /* font-weight: 500; */
-    /* line-height: 18px; */
     letter-spacing: -0.32px;
   }
 

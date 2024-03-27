@@ -22,6 +22,8 @@
   /* display: flex; */
   /* column-gap: 4px; */
   align-items: center;
+
+  cursor: pointer;
 }
 
 .order__title {
@@ -73,7 +75,7 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .order__btn {
     justify-content: flex-end;
   }

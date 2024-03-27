@@ -8,4 +8,5 @@
     flex-shrink: 0;
     box-sizing: border-box;
     border-radius: 16px;
+    width: auto !important;
 }

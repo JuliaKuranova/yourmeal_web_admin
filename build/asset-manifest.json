@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/yourmeal_web_admin/static/css/main.ce18a09b.css",
-    "main.js": "/yourmeal_web_admin/static/js/main.1217e409.js",
-    "static/media/InterVariable.ttf": "/yourmeal_web_admin/static/media/InterVariable.c9f788f6e7ebaec75d7c.ttf",
-    "static/media/InterDisplay-Bold.ttf": "/yourmeal_web_admin/static/media/InterDisplay-Bold.fcbf151eb928686c2bd0.ttf",
-    "static/media/InterDisplay-SemiBold.ttf": "/yourmeal_web_admin/static/media/InterDisplay-SemiBold.67b44ebd4addee42f07e.ttf",
-    "static/media/InterDisplay-Medium.ttf": "/yourmeal_web_admin/static/media/InterDisplay-Medium.ae02117e79fc615e9ae8.ttf",
-    "static/media/InterDisplay-Regular.ttf": "/yourmeal_web_admin/static/media/InterDisplay-Regular.ba835d1c38c04a49d1f4.ttf",
-    "static/media/AlegreyaSans-Bold.ttf": "/yourmeal_web_admin/static/media/AlegreyaSans-Bold.25c088668653c3649ff0.ttf",
-    "static/media/Fries-image.png": "/yourmeal_web_admin/static/media/Fries-image.a5f16f1ce9b2ca41105f.png",
-    "static/media/Lato-Regular.ttf": "/yourmeal_web_admin/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
-    "index.html": "/yourmeal_web_admin/index.html",
-    "main.ce18a09b.css.map": "/yourmeal_web_admin/static/css/main.ce18a09b.css.map",
-    "main.1217e409.js.map": "/yourmeal_web_admin/static/js/main.1217e409.js.map"
+    "main.css": "/static/css/main.d64a6387.css",
+    "main.js": "/static/js/main.c4f046e4.js",
+    "static/media/InterVariable.ttf": "/static/media/InterVariable.c9f788f6e7ebaec75d7c.ttf",
+    "static/media/InterDisplay-Bold.ttf": "/static/media/InterDisplay-Bold.fcbf151eb928686c2bd0.ttf",
+    "static/media/InterDisplay-SemiBold.ttf": "/static/media/InterDisplay-SemiBold.67b44ebd4addee42f07e.ttf",
+    "static/media/InterDisplay-Medium.ttf": "/static/media/InterDisplay-Medium.ae02117e79fc615e9ae8.ttf",
+    "static/media/InterDisplay-Regular.ttf": "/static/media/InterDisplay-Regular.ba835d1c38c04a49d1f4.ttf",
+    "static/media/AlegreyaSans-Bold.ttf": "/static/media/AlegreyaSans-Bold.25c088668653c3649ff0.ttf",
+    "static/media/Lato-Regular.ttf": "/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "index.html": "/index.html",
+    "main.d64a6387.css.map": "/static/css/main.d64a6387.css.map",
+    "main.c4f046e4.js.map": "/static/js/main.c4f046e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce18a09b.css",
-    "static/js/main.1217e409.js"
+    "static/css/main.d64a6387.css",
+    "static/js/main.c4f046e4.js"
   ]
 }

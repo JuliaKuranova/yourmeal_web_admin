@@ -24,4 +24,8 @@
   padding: 17px 16px 129px
 }
 
+/* yulia  */
+.grey-bg {
+  background: var(--Light-colors-Light, #f6f9fa);
+}
 

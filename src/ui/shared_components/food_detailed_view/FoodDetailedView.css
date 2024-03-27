@@ -1,0 +1,245 @@
+.food-detailed-all-wrapper .react-modal-sheet-drag-indicator {
+    width: 24px !important;
+    z-index: 9999 !important;
+    background: var(--gray-dark, #C6C9D1) !important;
+}
+
+.food-detailed-all-wrapper .react-modal-sheet-container {
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    z-index: 99 !important;
+}
+
+.food-detailed-all-wrapper .react-modal-sheet-backdrop {
+    background-color: var(--special-dark-layer, rgba(0, 0, 0, 0.35)) !important;
+    backdrop-filter: blur(2px) opacity(1) !important;
+}
+
+.food-detailed-wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.food-detailed-wrapper .food-detailed-absolute-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: scroll;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    top: -24px;
+}
+
+.food-detailed-all-wrapper .detailed-food-info-wrapper {
+    display: flex;
+    padding: 16px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    box-sizing: border-box;
+}
+
+.food-detailed-all-wrapper .react-modal-sheet-drag-indicator {
+    width: 24px !important;
+    background: var(--gray-dark, #C6C9D1) !important;
+}
+
+.food-detailed-all-wrapper .react-modal-sheet-header {
+    height: 24px !important;
+    z-index: 999999;
+}
+
+.food-detailed-all-wrapper .detailed-food-info-wrapper .price-and-weight-wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.food-detailed-all-wrapper .detailed-food-info-wrapper .food-variants-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.food-detailed-all-wrapper .btns-wrapper {
+    display: flex;
+    /* width: calc(100% - 4px); */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px 24px 16px;
+    margin-right: 4px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    background: white;
+}
+
+.food-detailed-all-wrapper .detailed-food-info-wrapper .food-tags-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 4px;
+    row-gap: 0;
+    width: 100%;
+}
+
+.food-detailed-all-wrapper .react-modal-sheet-container .bottom-grad {
+    content: '';
+    position: absolute;
+    top: -17px;
+    background: linear-gradient(to bottom, transparent, white);
+    height: 18px;
+    display: flex;
+    pointer-events: none;
+    z-index: 999999999999999 !important;
+}
+
+.food-detailed-all-wrapper .react-modal-sheet-container .top-grad {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to top, transparent, white);
+    height: 18px;
+    width: 300px;
+    display: flex;
+    pointer-events: none;
+    z-index: 999999999999999 !important;
+}
+
+.food-detailed-all-wrapper .food-all-info-wrapper .food-tags-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.food-detailed-all-wrapper .food-all-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.food-detailed-all-wrapper .price-and-diet-tags-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.food-detailed-all-wrapper .price-and-diet-tags-wrapper .diet-tags-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.food-detailed-all-wrapper .add-more-wrapper {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.food-detailed-absolute-wrapper-desktop {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: -9998 !important;
+    opacity: 0;
+    transition: opacity .2s ease;
+    -webkit-transition: opacity .2s ease;
+    -moz-transition: opacity .2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(1px) opacity(0);
+}
+
+.food-detailed-absolute-wrapper-desktop.open {
+    z-index: 9998 !important;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(1px) opacity(1);
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 24px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 50px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 24px;
+    background-color: var(--main-white, #FFF);
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow-y: scroll;
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .header-and-close-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .header-and-close-wrapper .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .food-variants-wrapper-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .price-and-weight-wrapper-desktop {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .ingr-wrapper-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .diet-tags-wrapper-desktop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .food-tags-wrapper-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .food-desktop-btns-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}

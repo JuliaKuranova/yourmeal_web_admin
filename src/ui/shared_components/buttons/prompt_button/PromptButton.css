@@ -1,0 +1,12 @@
+.prompt-btn {
+    display: flex;
+    cursor: pointer;
+}
+
+.prompt-btn:hover svg rect {
+    fill: #E7E9F0;
+}
+
+.prompt-btn:active svg rect {
+    fill: #CFD2DB;
+}

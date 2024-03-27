@@ -1,0 +1,17 @@
+.radio-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 8px
+}
+
+.radio-btn-wrapper .radio-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .1s all ease-in-out;
+}
+
+.radio-btn-wrapper:hover {
+    cursor: pointer;
+}
