@@ -1,0 +1,49 @@
+.top-container-desktop-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.top-container-desktop-wrapper .top-container-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 16px 86px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.top-container-desktop-wrapper .logo-and-search-desktop-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-right: 16px;
+}
+
+.top-container-desktop-wrapper.restaurant-sections-wrapper-desktop {
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.top-container-desktop-wrapper .top-container-desktop .profile-and-order-btns-wrapper-desktop {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+.top-container-desktop-wrapper .top-container-desktop .search-and-pref-desktop-wrapper {
+    display: flex;
+    gap: 8px;
+}

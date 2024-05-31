@@ -1,0 +1,16 @@
+.expected {
+  /* border-radius: 16px; */
+  background: rgba(86, 204, 242, 0.2);
+  color: var(--Blue-1, #2f80ed);
+  /* padding: 7px 16px; */
+}
+
+.paid {
+  background: var(--Light-colors-Green-light-1, #e7fff1);
+  color: var(--On-click-Ym-green, #00b54d);
+}
+
+.canceled {
+    background: rgba(247, 64, 97, 0.10);
+    color: var(--Special-Red, #F74061);
+}

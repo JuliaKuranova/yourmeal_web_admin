@@ -1,6 +1,8 @@
 export const RoutePaths = {
+    AUTHORIZATION: '/authorization',
     ORDERS: '/orders',
     MENU: '/menu',
-    RESTAURANT: '/restaurants',
-    LOGIN: '/login'
+    RESTAURANT: '/restaurant-page',
+    LOGIN: '/login',
+    POSITIONS: '/positions'
 } as const;

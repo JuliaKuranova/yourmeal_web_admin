@@ -1,4 +1,4 @@
-.active-modal {
+.madal-window.active-modal {
     display: flex;
 
     z-index: 2;

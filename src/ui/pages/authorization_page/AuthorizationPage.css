@@ -1,0 +1,109 @@
+.auth-and-reg-page-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 32px 16px 85px;
+}
+
+.auth-and-reg-page-wrapper .main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-and-reg-page-wrapper .main-wrapper .reg-header {
+  color: var(--text-primary, #2c2d2e);
+}
+
+.auth-and-reg-page-wrapper .reg-btns-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  position: fixed;
+  box-sizing: border-box;
+  padding: 16px;
+  bottom: 69px;
+}
+
+.auth-and-reg-page-wrapper .greetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  margin-bottom: 36px;
+  text-align: center;
+  color: var(--text-secondary, #5d5e64);
+}
+
+.auth-and-reg-page-wrapper-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: var(--light-colors-light);
+  /* height: 100vh; */
+  flex-direction: column;
+}
+
+.auth-and-reg-page-wrapper-desktop .auth-and-reg-page-wrapper-desktop-popup {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  align-items: flex-start;
+  gap: 16px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 50px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+}
+
+.auth-and-reg-page-wrapper-desktop
+  .auth-and-reg-page-wrapper-desktop-popup
+  .header-desktop-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.auth-and-reg-page-wrapper-desktop
+  .auth-and-reg-page-wrapper-desktop-popup
+  .desktop-reg-buttons-wrapper {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.auth-and-reg-page-wrapper-desktop
+  .auth-and-reg-page-wrapper-desktop-popup
+  .desktop-reg-buttons-wrapper.double {
+  display: grid;
+  width: 100%;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+  margin-top: 40px;
+}
+
+.reg-cms {
+  margin-top: 144px;
+}
+
+@media (min-width: 744px) {
+  .noneDesc {
+    display: none;
+  }
+
+  .reg-cms {
+    margin-top: inherit;
+
+    position: absolute;
+    bottom: 48px;
+  }
+}

@@ -25,7 +25,29 @@
 }
 
 /* yulia  */
-.grey-bg {
-  background: var(--Light-colors-Light, #f6f9fa);
+/* .grey-bg { */
+  /* background: var(--Light-colors-Light, #f6f9fa); */
+  /* background: aquamarine; */
+
+  /* width: max-content; */
+  /* height: 100vh;  */
+/* } */
+
+body {
+  background: var(--Light-colors-Light, #f6f9fa);;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bAWnAC  {
+  font-size: 17px !important;
+}
+
+@media (min-width: 744px) {
+  .bAWnAC  {
+    font-size: 18px !important;
+  }
 }
 

@@ -1,5 +1,5 @@
 // import {FoodPositionInOrderInfo} from "../../constants/content_types/FoodInfo";
-import { FoodPositionInOrderInfo } from "../../assets/constants/content_types/FoodInfo";
+import { FoodPositionInOrderInfo, FoodPositionInfo } from "../../assets/constants/content_types/FoodInfo";
 import { OrderStatus } from "../../assets/constants/content_types/OrderStatus";
 import { mockFood3 } from "../../ui/pages/restaurant_page/MockRestaurantPageData";
 // import {OrderStatus} from "../../constants/content_types/OrderStatus";
@@ -29,7 +29,8 @@ enum OrderActionTypes {
   CLEAR_ALL_ORDER_POSITIONS = 'CLEAR_ALL_ORDER_POSITIONS',
   CLEAR_AND_START_NEW_ORDER = 'CLEAR_AND_START_NEW_ORDER',
   SET_NEW_ORDER_STATUS = 'SET_NEW_ORDER_STATUS',
-  SET_ORDER_RESTAURANT_INFO = 'SET_ORDER_RESTAURANT_INFO'
+  SET_ORDER_RESTAURANT_INFO = 'SET_ORDER_RESTAURANT_INFO',
+  ADD_ORDER_POSITION = 'ADD_ORDER_POSITION'
 }
 
 // const storedOrderState = localStorage.getItem(LocalStorageOrderFields.ORDER_STATE);
@@ -61,6 +62,11 @@ export const removeOrderPosition = (position: FoodPositionInOrderInfo) => ({
   position: position
 });
 
+export const addOrderPosition = (position: FoodPositionInfo) => ({
+  type: OrderActionTypes.ADD_ORDER_POSITION,
+  position: position
+});
+
 export const clearAllOrderPositions = () => ({
   type: OrderActionTypes.CLEAR_ALL_ORDER_POSITIONS,
 });
@@ -87,6 +93,7 @@ const orderReducer = (
     | ReturnType<typeof decrementOrderPositionCount>
     | ReturnType<typeof clearAllOrderPositions>
     | ReturnType<typeof removeOrderPosition>
+    | ReturnType<typeof addOrderPosition>
     | ReturnType<typeof clearAndStartNewOrder>
     | ReturnType<typeof setNewOrderStatus>
     | ReturnType<typeof setOrderRestaurantInfo>
@@ -164,6 +171,26 @@ const orderReducer = (
         }),
       };
       break;
+
+      case OrderActionTypes.ADD_ORDER_POSITION:
+        const castedAddPositionAction = action as ReturnType<typeof addOrderPosition>;
+  
+        newState = {
+          ...state,
+          restaurantId: castedAddPositionAction?.position?.restaurantId,
+          orderStatus: OrderStatus.PREPARING,
+          orderState: [
+            ...state.orderState,
+            {
+              position: {
+                ...castedAddPositionAction.position,
+                selectedVariationId: '1'
+              },
+              count: 1
+            }
+          ],
+        };
+        break;
 
     case OrderActionTypes.CLEAR_ALL_ORDER_POSITIONS:
       newState = {

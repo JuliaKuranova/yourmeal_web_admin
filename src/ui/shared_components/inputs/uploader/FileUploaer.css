@@ -1,0 +1,16 @@
+.file-uploader {
+  margin-bottom: 2em;
+}
+
+.file-uploader input {
+  display: none;
+}
+
+.file-uploader label {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  padding: 0.8em;
+  border-radius: 10px;
+  font-weight: bold;
+}

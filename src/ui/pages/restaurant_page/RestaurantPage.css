@@ -1,0 +1,16 @@
+.tags-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.wrapp-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (min-width: 744px) {
+  .wrapp-dropdown {
+    flex-direction: inherit;
+  }
+}

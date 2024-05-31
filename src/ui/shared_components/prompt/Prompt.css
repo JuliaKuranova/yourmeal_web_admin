@@ -82,15 +82,19 @@
 
 /* yulia */
 .prompt-wrapper {
-    margin: 0 16px 24px;
-    display: grid;
-    row-gap: 16px;
+  margin: 0 16px 24px;
+  display: grid;
+  row-gap: 16px;
 }
-/* .greetings-sheet-wrapper {
+.gray-text {
+  color: var(--text-secondary, #5d5e64);
+}
 
-} */
+.mod {
+  display: none;
+}
 
-@media (min-width: 600px) {
+@media (min-width: 744px) {
   .profile-modal-wrapper-desktop {
     position: fixed;
     height: 100vh;
@@ -102,7 +106,7 @@
     transition: opacity 0.2s ease;
     -webkit-transition: opacity 0.2s ease;
     -moz-transition: opacity 0.2s ease;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -114,6 +118,7 @@
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(1px) opacity(1);
+    display: flex;
   }
 
   .profile-modal-wrapper-desktop .profile-modal-desktop {

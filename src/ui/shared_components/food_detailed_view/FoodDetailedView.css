@@ -1,16 +1,16 @@
-.food-detailed-all-wrapper .react-modal-sheet-drag-indicator {
+.react-modal-sheet-drag-indicator {
     width: 24px !important;
     z-index: 9999 !important;
     background: var(--gray-dark, #C6C9D1) !important;
 }
 
-.food-detailed-all-wrapper .react-modal-sheet-container {
+.react-modal-sheet-container {
     border-top-right-radius: 20px !important;
     border-top-left-radius: 20px !important;
     z-index: 99 !important;
 }
 
-.food-detailed-all-wrapper .react-modal-sheet-backdrop {
+.react-modal-sheet-backdrop {
     background-color: var(--special-dark-layer, rgba(0, 0, 0, 0.35)) !important;
     backdrop-filter: blur(2px) opacity(1) !important;
 }
@@ -32,7 +32,7 @@
     top: -24px;
 }
 
-.food-detailed-all-wrapper .detailed-food-info-wrapper {
+.detailed-food-info-wrapper {
     display: flex;
     padding: 16px 16px;
     flex-direction: column;
@@ -42,22 +42,22 @@
     box-sizing: border-box;
 }
 
-.food-detailed-all-wrapper .react-modal-sheet-drag-indicator {
+.react-modal-sheet-drag-indicator {
     width: 24px !important;
     background: var(--gray-dark, #C6C9D1) !important;
 }
 
-.food-detailed-all-wrapper .react-modal-sheet-header {
+.react-modal-sheet-header {
     height: 24px !important;
     z-index: 999999;
 }
 
-.food-detailed-all-wrapper .detailed-food-info-wrapper .price-and-weight-wrapper {
+.detailed-food-info-wrapper .price-and-weight-wrapper {
     display: flex;
     gap: 12px;
 }
 
-.food-detailed-all-wrapper .detailed-food-info-wrapper .food-variants-wrapper {
+.detailed-food-info-wrapper .food-variants-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -65,20 +65,20 @@
     align-self: stretch;
 }
 
-.food-detailed-all-wrapper .btns-wrapper {
+.btns-wrapper {
     display: flex;
     /* width: calc(100% - 4px); */
     width: 100%;
     box-sizing: border-box;
-    padding: 8px 12px 24px 16px;
+    /* padding: 8px 12px 24px 16px; */
     margin-right: 4px;
     flex-direction: column;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     background: white;
 }
 
-.food-detailed-all-wrapper .detailed-food-info-wrapper .food-tags-wrapper {
+.detailed-food-info-wrapper .food-tags-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 4px;
@@ -86,7 +86,7 @@
     width: 100%;
 }
 
-.food-detailed-all-wrapper .react-modal-sheet-container .bottom-grad {
+.react-modal-sheet-container .bottom-grad {
     content: '';
     position: absolute;
     top: -17px;
@@ -97,7 +97,7 @@
     z-index: 999999999999999 !important;
 }
 
-.food-detailed-all-wrapper .react-modal-sheet-container .top-grad {
+.react-modal-sheet-container .top-grad {
     content: '';
     position: absolute;
     background: linear-gradient(to top, transparent, white);
@@ -108,28 +108,28 @@
     z-index: 999999999999999 !important;
 }
 
-.food-detailed-all-wrapper .food-all-info-wrapper .food-tags-section-wrapper {
+.food-all-info-wrapper .food-tags-section-wrapper {
     display: flex;
     flex-direction: column;
     gap: 8px;
     width: 100%;
 }
 
-.food-detailed-all-wrapper .food-all-info-wrapper {
+.food-all-info-wrapper {
     display: flex;
     flex-direction: column;
     gap: 12px;
     width: 100%;
 }
 
-.food-detailed-all-wrapper .price-and-diet-tags-wrapper {
+.price-and-diet-tags-wrapper {
     display: flex;
     flex-direction: column;
     gap: 12px;
     width: 100%;
 }
 
-.food-detailed-all-wrapper .price-and-diet-tags-wrapper .diet-tags-wrapper {
+.price-and-diet-tags-wrapper .diet-tags-wrapper {
     display: flex;
     flex-direction: row;
     gap: 4px;
@@ -137,7 +137,7 @@
     flex-wrap: wrap;
 }
 
-.food-detailed-all-wrapper .add-more-wrapper {
+.add-more-wrapper {
     width: 100%;
     display: flex;
     overflow: hidden;
@@ -185,7 +185,8 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    /* scrollbar-width: none;  */
 }
 
 .food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .header-and-close-wrapper {
@@ -223,7 +224,8 @@
     align-self: stretch;
 }
 
-.food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop .diet-tags-wrapper-desktop {
+/* .food-detailed-absolute-wrapper-desktop .food-detailed-wrapper-desktop .food-info-wrapper-desktop  */
+.diet-tags-wrapper-desktop {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

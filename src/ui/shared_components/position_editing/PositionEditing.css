@@ -1,0 +1,28 @@
+.section-edit-input,
+.section-edit-input_CFCB {
+  display: grid;
+  gap: 8px;
+}
+
+.edit-section {
+  display: grid;
+  row-gap: 16px;
+}
+
+@media (min-width: 744px) {
+  .section-edit-input_CFCB {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 278px);
+    gap: 8px;
+  }
+
+  .btn-w-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .btn-w-right > .standard-btn-wrapper {
+    width: max-content !important;
+  }
+}

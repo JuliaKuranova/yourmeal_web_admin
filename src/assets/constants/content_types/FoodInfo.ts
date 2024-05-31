@@ -3,8 +3,8 @@ import {AllergyTag} from "./AllergyTag";
 import {MenuSectionTag} from "./MenuSectionTag";
 
 export enum VariationType {
-  STANDARD,
-  CUSTOM
+  STANDARD = 'STANDARD',
+  CUSTOM = 'CUSTOM'
 }
 
 export interface FoodVariation {
@@ -18,24 +18,39 @@ export interface FoodVariation {
   restrictedAllergyTags?: AllergyTag[];
 
   // extended variant info
+  description?: string;
   ingredients: string;
   proteins: number;
   fats: number;
   carbohydrates: number;
   calories: number;
   CFCB: string;
+
+  proteinsHundred?: number;
+  fatsHundred?: number;
+  carbohydratesHundred?: number;
+  caloriesHundred?: number;
 }
 
 export interface FoodPositionInfo {
   id: string;
   restaurantId: string;
   name: string;
+  inMenu?: boolean;
+  onMain?: boolean;
+  selectedVariationName?: string;
+  selectedVariationType?: string;
   image: any;
   isOnStartPage?: boolean;
   foodVariations: FoodVariation[];
   menuSectionTags: MenuSectionTag[];
+  groupPosition?: string;
+  additionalGroup?: string;
 }
 
 export interface FoodPositionInOrderInfo extends FoodPositionInfo {
+  positionInOrderId?: number;
   selectedVariationId: string;
+  price?: number;
+  count?: number;
 }

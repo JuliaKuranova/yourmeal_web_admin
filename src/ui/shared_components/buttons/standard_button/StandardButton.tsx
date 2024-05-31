@@ -14,6 +14,7 @@ export enum StandardButtonIconType {
   WHITE_DOWN_ARROW,
   BLACK_LEFT_ARROW,
   WHITE_PLUS,
+  DARK_PLUS,
   BLACK_USER_SQUARE_ICON,
   BLACK_USER_ROUND_ICON,
   TRASH,
@@ -38,8 +39,10 @@ interface StandardButtonProps {
   iconType: StandardButtonIconType;
   iconPosition: StandardButtonIconPosition;
   notFullWidth?: boolean;
+  className?: string;
+  type?: any;
 }
-const StandardButton: React.FC<StandardButtonProps> = ({ onClickAction, iconType, iconPosition, color, text, notFullWidth }) => {
+const StandardButton: React.FC<StandardButtonProps> = ({ onClickAction, iconType, iconPosition, color, text, notFullWidth, className }) => {
   const [isHovered, setHovered] = useState(false);
   const [isClicked, setClicked] = useState(false);
   const isTouchable = useMediaQuery({ query: MediaQueries.TOUCHABLE });
@@ -71,6 +74,13 @@ const StandardButton: React.FC<StandardButtonProps> = ({ onClickAction, iconType
           <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="11.5" y="5" width="2" height="14" rx="1" fill="white"/>
             <rect x="5.5" y="13" width="2" height="14" rx="1" transform="rotate(-90 5.5 13)" fill="white"/>
+          </svg>
+        )
+        case StandardButtonIconType.DARK_PLUS:
+        return (
+          <svg width="25" height="24" viewBox="0 0 25 24" fill="2C2D2E" xmlns="http://www.w3.org/2000/svg">
+            <rect x="11.5" y="5" width="2" height="14" rx="1" fill="2C2D2E"/>
+            <rect x="5.5" y="13" width="2" height="14" rx="1" transform="rotate(-90 5.5 13)" fill="2C2D2E"/>
           </svg>
         )
       case StandardButtonIconType.WHITE_DOWN_ARROW:
@@ -156,7 +166,7 @@ const StandardButton: React.FC<StandardButtonProps> = ({ onClickAction, iconType
 
   return(
     <div
-      className={'animation-02s-all standard-btn-wrapper'}
+      className={`animation-02s-all standard-btn-wrapper ${className}`}
       onClick={onClickAction}
       onMouseEnter={() => {
         if (!isTouchable) {

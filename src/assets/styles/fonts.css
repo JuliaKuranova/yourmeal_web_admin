@@ -215,7 +215,15 @@
   letter-spacing: -0.48px;
 }
 
-@media (min-width: 786px) {
+/* .position-title {
+  font-family: InterDisplay-SemiBold, serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px; */
+  /* letter-spacing: -0.32px; */
+/* } */
+
+@media (min-width: 744px) {
   .main-text {
     /* color: #000; */
     /* font-family: Lato-Regular, sans-serif; */
@@ -242,4 +250,11 @@
     font-size: 36px;
     letter-spacing: -0.72px;
   }
+
+  /* .position-title {
+    font-family: Lato-Regular, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  } */
 }

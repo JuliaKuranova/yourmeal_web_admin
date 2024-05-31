@@ -1,0 +1,28 @@
+.wrapper-photo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.wrapper-photo img {
+  width: 128px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.image-uploader {
+  width: auto;
+}
+
+@media (min-width: 744px) {
+  .wrapper-photo {
+    flex-direction: inherit;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .wrapper-photo img {
+    width: 200px;
+    height: 200px;
+  }
+}

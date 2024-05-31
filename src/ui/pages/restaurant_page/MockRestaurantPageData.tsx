@@ -6,7 +6,7 @@ export const mockFood1: FoodPositionInfo[] = [
   {
     id: '1',
     restaurantId: '1',
-    name: 'Картофель фри с трюфельным маслом',
+    name: 'Картофель фри',
     image: 'https://i.imgur.com/6dtZI35.jpg',
     isOnStartPage: false,
     menuSectionTags: [MenuSectionTag.SALADS, MenuSectionTag.RECOMMENDED],
@@ -442,7 +442,7 @@ export const mockFood3: FoodPositionInOrderInfo[] = [
   {
     id: '1',
     restaurantId: '1',
-    name: 'Картофель фри с трюфельным маслом',
+    name: 'Картофель фри',
     image: 'https://i.imgur.com/6dtZI35.jpg',
     isOnStartPage: false,
     menuSectionTags: [MenuSectionTag.SALADS, MenuSectionTag.RECOMMENDED],
@@ -547,5 +547,6 @@ export const mockFood3: FoodPositionInOrderInfo[] = [
         restrictedAllergyTags: [],
       }
     ],
-  }
+  },
+
 ]
