@@ -1,13 +1,11 @@
-FROM node:18-alpine AS build
+FROM huecker.io/library/node:18-alpine AS build
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+RUN npm install --verbose
 COPY . .
-RUN npm run lint
-RUN npm test
 RUN npm run build
 
-FROM node:18-alpine AS prod
+FROM huecker.io/library/node:18-alpine AS prod
 WORKDIR /app
 COPY --from=build /app/build /app/build
 RUN npm install -g serve

@@ -5,7 +5,7 @@ networks:
     driver: bridge
 
 services:
-  portfolio:
+  ym-admin-web:
     container_name: ym-admin-web
     build:
       context: .
